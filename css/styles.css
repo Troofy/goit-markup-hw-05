@@ -67,6 +67,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-font-color);
+  animation-duration: 1000ms;
 }
 .logo-first-part {
   color: var(--accent-color-link);
@@ -609,6 +610,9 @@ body {
 .modal-close-icon {
   width: 11px;
   height: 11px;
+}
+.backdrop {
+  transform: scale(1);
 }
 .is-hidden {
   opacity: 0;
